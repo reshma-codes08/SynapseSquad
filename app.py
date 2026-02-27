@@ -1,3 +1,4 @@
+#code
 import streamlit as st
 import tensorflow as tf
 from PIL import Image
@@ -69,4 +70,5 @@ elif app_mode == "Disease Recognition":
                 
                 # Dynamic Recommendation
                 if "blight" in classes[idx].lower():
+
                     st.warning("Recommendation: Use Copper-based fungicides and improve air circulation.")
